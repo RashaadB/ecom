@@ -1,14 +1,13 @@
-.percent20 {
-  margin-top: -15.8%;
-  text-align: center;
-  border-top: 5px solid #fd6621;
-  padding-top: 5px;
-  background-color: black;
+hero_text p {
+  font-size: 90%;
 }
-
+nav {
+  width: 100%;
+  margin: 0;
+}
 .hero_text {
   position: absolute;
-  font-size: 20px;
+  font-size: 30px;
   top: 80%;
   left: 60%;
   transform: translate(-50%, -50%);
@@ -18,14 +17,20 @@
 }
 .hero_text2 {
   position: absolute;
-  font-size: 20px;
+  font-size: 30px;
   top: 90%;
   left: 60%;
   margin-right: -10;
   color: black;
   font-weight: bold;
 }
-
+.percent20 {
+  margin-top: -15.8%;
+  text-align: center;
+  border-top: 5px solid #fd6621;
+  padding-top: 5px;
+  background-color: black;
+}
 .percent30 {
   text-align: center;
   width: 100%;
@@ -99,15 +104,17 @@ section h1 {
 
 .RSB {
   margin: 0;
+  text-align: center;
 }
 
 .Decks {
   margin: 0;
+  text-align: center;
 }
 
 .hero {
   width: 100%;
-  margin-bottom: -6%;
+  margin-bottom: 0;
 }
 html {
   font-family: Garamond;
