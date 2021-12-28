@@ -55,6 +55,12 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
+@media (max-width: 509px) {
+  .decks {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
 html {
   background-color: #242f3b;
 }
