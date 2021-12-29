@@ -50,7 +50,7 @@
   width: 50%;
 }
 
-@media (max-width: 1130px) {
+@media (max-width: 1000px) {
   .decks {
     grid-template-columns: repeat(2, 1fr);
   }
